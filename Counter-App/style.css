@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    height: 600px;
+}
+.render{
+    margin-top: -500px;
+    margin-left: 125px;
+    font-size: 50px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.option button{
+    padding: 10px;
+    margin: 0 30px;
+    border-radius: 20px;
+    font-size: large;
+    background: linear-gradient(white,pink);
+}
+.option button:hover{
+    height: 65px;
+    width: 200px;
+    transition: 2s;
+    background: linear-gradient(blue,white);
+    animation-duration: 3s;
+}
